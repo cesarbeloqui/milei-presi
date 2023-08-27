@@ -1,0 +1,6 @@
+# Ignorar la carpeta node_modules y su contenido
+node_modules/
+
+# Ignorar archivos generados por npm
+package-lock.json
+npm-debug.log

@@ -1,0 +1,37 @@
+
+.header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%; /* Añadido */
+    margin: 0;
+  }
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed; /* Establece el Navbar como fijo */
+    top: 0; /* Ancla el Navbar en la parte superior */
+    width: 100%; /* Opcional: Asegura que ocupe todo el ancho */
+    z-index: 1000; /* Opcional: Asegura que el Navbar esté en la parte superior */
+  }
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Cambiado para alinear horizontalmente */
+  justify-content: center; /* Añadido para centrar en horizontal */
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+  background-color: #191919;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navbar li:hover {
+    background-color: #505050;
+  }

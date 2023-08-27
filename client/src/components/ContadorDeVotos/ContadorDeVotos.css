@@ -1,0 +1,18 @@
+.containerContador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.containerContador > button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 50px;
+  margin: 20px;
+}
+.graficoContador {
+  width: 500px; /* Ajusta el tamaño del gráfico según tus necesidades */
+  height: 500px; /* Ajusta el tamaño del gráfico según tus necesidades */
+}
